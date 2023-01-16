@@ -278,10 +278,10 @@ ul.site_menu li a {
      height: 100%;
      top: 0;
      left: 0;
-     background-color: #111;
+     background-color: #212529;
      overflow-x: hidden;
      transition: 0.5s;
-     padding-top: 60px;
+     padding-top: 66px;
 }
 
 .sidepanel a {
@@ -294,11 +294,11 @@ ul.site_menu li a {
 }
 
 .sidepanel a:hover {
-     color: #f3cf2d;
+     color: #6c757d;
 }
 
 .sidepanel a.active {
-     color: #f3cf2d;
+     color: #6c757d;
 }
 
 .sidepanel .closebtn {
@@ -649,7 +649,7 @@ ul.site_menu li a {
 }
 
 .bg_yeloow {
-     background: #f3cf2d;
+     background: #6c757d;
      padding: 50px 0;
 }
 
@@ -688,7 +688,7 @@ ul.site_menu li a {
 .main_form .send_btn {
      font-size: 18px;
      transition: ease-in all 0.5s;
-     background-color: #000000;
+     background-color: #212529;
      color: #fff;
      max-width: 217px;
      width: 100%;
