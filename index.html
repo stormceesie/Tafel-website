@@ -9,7 +9,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>metal</title>
+   <link rel="shortcut icon" type="image/x-icon" href="Favicon.jpg" />
+   <title>KGLR Welding</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -36,16 +37,8 @@
 
 <body class="main-layout">
    <!-- loader  -->
-   <div class="loader">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-   </div>
    <div id="mySidepanel" class="sidepanel">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="openNav()">×</a>
       <a class="active" href="index.html">Home</a>
       <a href="#about">Over ons</a>
       <a href="#product">Producten</a>
@@ -69,7 +62,7 @@
                <div class="col-md-10 col-sm-9">
                   <ul class="site_menu text_align_right">
                      <li>
-                        <button class="openbtn" onclick="openNav()">Menu</button>
+                        <a class="openbtn" role="button" onclick="openNav()">Menu</a>
                      </li>
                   </ul>
                </div>
@@ -96,8 +89,8 @@
                                  <p>It is a long established fact that a reader will be distracted by the readable
                                     content of a page when looking at its layout. The point of using Lorem Ipsum is
                                     that it has a more-or-less normal distribution of letters,</p>
-                                 <a class="read_more conatct_btn" href="#contact" role="button">Contact now</a>
-                                 <a class="read_more conatct_btn" href="#about" role="button">About Factory</a>
+                                 <a class="openbtn" href="#contact" role="button">Neem nu contact op</a>
+                                 <a class="openbtn" href="#about" role="button">Over ons</a>
                               </div>
                            </div>
                         </div>
@@ -115,8 +108,8 @@
                                  <p>It is a long established fact that a reader will be distracted by the readable
                                     content of a page when looking at its layout. The point of using Lorem Ipsum is
                                     that it has a more-or-less normal distribution of letters,</p>
-                                 <a class="read_more conatct_btn" href="#contact" role="button">Contact now</a>
-                                 <a class="read_more conatct_btn" href="#about" role="button">About Factory</a>
+                                 <a class="openbtn" href="#contact" role="button">Neem nu contact op</a>
+                                 <a class="openbtn" href="#about" role="button">Over ons</a>
                               </div>
                            </div>
                         </div>
@@ -134,8 +127,8 @@
                                  <p>It is a long established fact that a reader will be distracted by the readable
                                     content of a page when looking at its layout. The point of using Lorem Ipsum is
                                     that it has a more-or-less normal distribution of letters,</p>
-                                 <a class="read_more conatct_btn" href="#contact" role="button">Contact now</a>
-                                 <a class="read_more conatct_btn" href="#about" role="button">About Factory</a>
+                                 <a class="openbtn" href="#contact" role="button">Neem nu contact op</a>
+                                 <a class="openbtn" href="#about" role="button">Over ons</a>
                               </div>
                            </div>
                         </div>
@@ -175,7 +168,7 @@
                         dis parturient montes, nascetur.
                         natoque penatibus et magnis dis parturient montes, nascetur.
                      </p>
-                     <a class="read_more" href="Javascript:void(0)">About Us</a>
+                     <a class="openbtn">Over ons</a>
                   </div>
                </div>
             </div>
@@ -190,10 +183,9 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage text_align_left">
-                     <h2>Metal Products</h2>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a
-                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
-                        normal distribution of letters,</p>
+                     <h2>Onze producten</h2>
+                     <p>Hieronder is een lijst te zien van de producten die wij maken. Het is ook mogelijk om tafels op maat te laten maken.
+                        wilt u een product op maat laten maken of een standaard product aanvragen? Dit kan gemakkelijk door contact op te nemen via ons email adres of het berichten blok hieronder.</p>
                   </div>
                </div>
             </div>
@@ -210,22 +202,46 @@
                      <div class="carousel-caption  banner_pro">
                         <div class="row d_flex">
                            <div class="col-md-4">
-                              <div class="product mar_bottom30">
-                                 <figure><img src="images/pro1.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                            <div class="col-md-4 mar_bottom30">
-                              <div class="product">
-                                 <figure><img src="images/pro2.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                            <div class="col-md-4">
-                              <div class="product">
-                                 <figure><img src="images/pro1.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                         </div>
                      </div>
@@ -236,22 +252,46 @@
                      <div class="carousel-caption  banner_pro">
                         <div class="row d_flex">
                            <div class="col-md-4 mar_bottom30">
-                              <div class="product">
-                                 <figure><img src="images/pro1.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                            <div class="col-md-4 mar_bottom30">
-                              <div class="product">
-                                 <figure><img src="images/pro2.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                            <div class="col-md-4">
-                              <div class="product">
-                                 <figure><img src="images/pro1.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                         </div>
                      </div>
@@ -262,22 +302,46 @@
                      <div class="carousel-caption  banner_pro">
                         <div class="row d_flex">
                            <div class="col-md-4 mar_bottom30">
-                              <div class="product">
-                                 <figure><img src="images/pro1.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                            <div class="col-md-4 mar_bottom30">
-                              <div class="product">
-                                 <figure><img src="images/pro2.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                            <div class="col-md-4">
-                              <div class="product">
-                                 <figure><img src="images/pro1.png" alt="#" /></figure>
-                                 <h3>distribution</h3>
-                              </div>
+                              <div class="flip-card">
+                                 <div class="flip-card-inner">
+                                     <div class="flip-card-front">
+                                         <p class="title">FLIP CARD</p>
+                                         <p>Hover Me</p>
+                                     </div>
+                                     <div class="flip-card-back">
+                                         <p class="title">BACK</p>
+                                         <p>Leave Me</p>
+                                     </div>
+                                 </div>
+                             </div>
                            </div>
                         </div>
                      </div>
@@ -323,7 +387,7 @@
                                     Message="Name">Bericht</textarea>
                               </div>
                               <div class="col-md-12">
-                                 <button class="send_btn">Versturen</button>
+                                 <button class="openbtn">Versturen</button>
                               </div>
                            </div>
                         </form>

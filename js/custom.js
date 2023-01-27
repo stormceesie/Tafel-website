@@ -56,7 +56,7 @@ $(function () {
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
      // optional
      $('#blogCarousel').carousel({
-        interval: 5000
+        interval: 7000
      });
 
 
@@ -66,7 +66,12 @@ $(function () {
 /* Toggle sidebar
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 function openNav() {
-  document.getElementById("mySidepanel").style.width = "250px";
+	if (document.getElementById("mySidepanel").style.width == "250px") {
+		document.getElementById("mySidepanel").style.width = "0";
+	}
+	else {
+		document.getElementById("mySidepanel").style.width = "250px";
+	}
 }
 
 function closeNav() {
